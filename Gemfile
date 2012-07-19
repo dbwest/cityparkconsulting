@@ -15,10 +15,11 @@ gem 'bootstrap_helper'
 gem 'jquery-ui-rails'
 gem 'themes_for_rails'
 gem 'thin'
+gem 'jasmine', :group => [:development, :test]
 
 group :development do
 	gem 'rspec-rails'
-	gem 'jasmine-rails'
+	gem 'guard-jasmine-headless-webkit'
 end
 
 group :test do
@@ -26,7 +27,6 @@ group :test do
 	gem 'rspec'
 	gem 'webrat'
 	gem 'spork-rails'
-	gem 'jasmine-rails'
 end
 
 # Gems used only for assets and not required

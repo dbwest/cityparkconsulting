@@ -52,6 +52,12 @@ GEM
     execjs (1.4.0)
       multi_json (~> 1.0)
     ffi (1.0.11)
+    guard (1.2.3)
+      listen (>= 0.4.2)
+      thor (>= 0.14.6)
+    guard-jasmine-headless-webkit (0.3.2)
+      guard (>= 0.4.0)
+      jasmine-headless-webkit (>= 0.7.0)
     hike (1.2.1)
     i18n (0.6.0)
     jasmine (1.2.0)
@@ -66,10 +72,6 @@ GEM
       multi_json
       rainbow
       sprockets (~> 2)
-    jasmine-rails (0.0.3)
-      jasmine
-      jasmine-headless-webkit
-      rails (>= 3.1.0)
     journey (1.0.4)
     jquery-rails (2.0.2)
       railties (>= 3.2.0, < 5.0)
@@ -80,6 +82,10 @@ GEM
     json (1.7.3)
     libwebsocket (0.1.4)
       addressable
+    listen (0.4.7)
+      rb-fchange (~> 0.0.5)
+      rb-fsevent (~> 0.9.1)
+      rb-inotify (~> 0.8.8)
     mail (2.4.4)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -113,6 +119,11 @@ GEM
       thor (>= 0.14.6, < 2.0)
     rainbow (1.1.4)
     rake (0.9.2.2)
+    rb-fchange (0.0.5)
+      ffi
+    rb-fsevent (0.9.1)
+    rb-inotify (0.8.8)
+      ffi (>= 0.5.0)
     rdoc (3.12)
       json (~> 1.4)
     rspec (2.11.0)
@@ -175,7 +186,8 @@ DEPENDENCIES
   bootstrap-sass (~> 2.0.3)
   bootstrap_helper
   coffee-rails (~> 3.2.1)
-  jasmine-rails
+  guard-jasmine-headless-webkit
+  jasmine
   jquery-rails
   jquery-ui-rails
   nokogiri

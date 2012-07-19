@@ -1,5 +1,7 @@
 Cityparkconsulting::Application.routes.draw do
 
+  get "pages/index"
+
   get "landing/detail"
 
   get "landing/fullwidth"

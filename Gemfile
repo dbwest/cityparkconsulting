@@ -16,7 +16,18 @@ gem 'jquery-ui-rails'
 gem 'themes_for_rails'
 gem 'thin'
 
+group :development do
+	gem 'rspec-rails'
+	gem 'jasmine-rails'
+end
 
+group :test do
+	gem 'rspec-rails'
+	gem 'rspec'
+	gem 'webrat'
+	gem 'spork-rails'
+	gem 'jasmine-rails'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.

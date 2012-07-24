@@ -13,3 +13,7 @@
  *= require_tree ../themes/halo
  */
 
+ .index {
+	background-color: transparent;
+}
+

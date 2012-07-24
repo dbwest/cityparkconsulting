@@ -10,6 +10,6 @@
  *
  *= require_self
  *= require_tree .
- *= require_tree ./themes/halo
+ *= require_tree ../themes/halo
  */
 

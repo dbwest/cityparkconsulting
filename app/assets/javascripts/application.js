@@ -13,4 +13,4 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
-//= require_tree ./themes/halo
+//= require_tree ../themes/halo

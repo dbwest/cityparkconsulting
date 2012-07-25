@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cityparkconsulting</title>
+  <title>City Park Consulting</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
@@ -18,96 +18,21 @@
 						<div class="branch">
 							<a href="index.html">City Park Consulting</a>
 							<i class="icon-map-marker icon-white"></i>
-						</div>
-					</div>
-					<div class="span8">
-						<div class="btn-group pull-right">
-						  <a href="#" data-toggle="dropdown" class="btn btn-primary"><i class="icon-user icon-white"></i></a>
-						  <a href="#" data-toggle="dropdown" class="btn btn-primary dropdown-toggle"><span class="caret"></span></a>
-						  <ul class="dropdown-menu">
-							<li><a href="#"><i class="icon-lock"></i> Sign In</a></li>
-							<li><a href="#"><i class="icon-pencil"></i> Sign Up</a></li>
-						  </ul>
-						</div>
-						<form style="margin-bottom:0px" class="pull-right" id="searchBox" method="get" action="detail.html">
-							<div class="input-append input-prepend"> 
-								<span class="add-on"><div></div><i class="icon-arrow-down"></i></span><input type="text" placeholder="Send quick feedback" class="input-medium sb_input"><button type="submit" class="btn" style="margin-top: 6px;">Go</button>
-							</div>
-							<ul class="sb_dropdown" style="display:none;">
-								<li class="sb_filter">Filter your search</li>
-								<li><input type="checkbox"/><label for="all"><strong>All Categories</strong></label></li>
-								<li><input type="checkbox"/><label for="Automotive">Automotive</label></li>
-								<li><input type="checkbox"/><label for="Baby">Baby</label></li>
-								<li><input type="checkbox"/><label for="Beauty">Beautys</label></li>
-								<li><input type="checkbox"/><label for="Books">Books</label></li>
-								<li><input type="checkbox"/><label for="Cell">Cell Phones &amp; Service</label></li>
-								<li><input type="checkbox"/><label for="Cloth">Clothing &amp; Accessories</label></li>
-								<li><input type="checkbox"/><label for="Electronics">Electronics</label></li>
-								<li><input 	type="checkbox"/><label for="Gourmet">Gourmet Food</label></li>
-								<li><input type="checkbox"/><label for="Health">Health &amp; Personal Care</label></li>
-								<li><input type="checkbox"/><label for="Home">Home &amp; Garden</label></li>
-								<li><input type="checkbox"/><label for="Industrial">Industrial &amp; Scientific</label></li>
-								<li><input type="checkbox"/><label for="Jewelry">Jewelry</label></li>
-								<li><input type="checkbox"/><label for="Magazines">Magazines</label></li>
-							</ul>
-						</form>
-					</div>
-				</div>
-			</div>
 
-			<div class="navbar-inner">
-				<div class="container">
+						</div>
+						<p>We'll make your next killer app</p>
+					</div>
 					<div class="row">
-						<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						</a>
-						<!--<a class="brand" href="#">Project name</a>-->
-
-						<div class="nav-collapse">
-							<ul id="ldd_menu" class="ldd_menu">
-								<li>
-									<span><a class="" href="about.html">About</a></span>
-								</li>
-								<li>
-									<span><a href="#">Solutions</a></span><!-- Increases to 510px in width-->
-									<div class="ldd_submenu">
-										<ul>
-											<li class="ldd_heading">Design</li>
-											<li><a href="detail.html">Branding</a></li>
-											<li><a href="detail.html">User Interface</a></li>
-											<li><a href="detail.html">Asset Generation</a></li>
-										</ul>
-										<ul>
-											<li class="ldd_heading">Development</li>
-											<li><a href="detail.html">Ruby on Rails</a></li>
-											<li><a href="detail.html">Other Technologies</a></li>
-										</ul>
-										<ul>
-											<li class="ldd_heading">Hosting and Deployment</li>
-											<li><a href="detail.html">Cloud Services</a></li>
-											<li><a href="detail.html">Custom Servers</a></li>
-											<li><a href="detail.html">Asset Servers</a></li>
-										</ul>
-										<a class="ldd_subfoot" href="#"> + New Deals</a>
-									</div>
-								</li>
-								<li>
-									<span><a class="" href="portfolio.html">Portfolio</a></span>
-								</li>
-								
-								<li>
-									<span><a class="" href="left_sidebar.html">Left sidebar</a></span>
-								</li>
-								<li>
-									<span><a class="" href="right_sidebar.html">Right sidebar</a></span>
-								</li>
-							</ul>
-						</div><!--/.nav-collapse -->
-					</div>
+				<div>
+				    <blockquote>
+						<h3>Tweets <small>@dbwest: <%= Twitter::user_timeline("dbwest").first.text %></small></h3>
+					</blockquote>
 				</div>
 			</div>
+				</div>
+			</div>
+
+			
 		</div>
 	
 
@@ -122,54 +47,24 @@
 						<a href="index.html">City Park Consulting</a>
 						<i class="icon-map-marker icon-white"></i>
 					</div>
-					<p>Lorem ipsum dolor</p>
+					<p>You're in the right place</p>
 				</div>
 			</div>
 			<div class="span7">
-				<h3>Lorem ipsum dolor sit amet</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				<h3>Contact</h3>
+				<p><ul>
+					<li>Email: david.b.west@gmail.com</li>
+					<li>Phone: (303) 547-6117</li>
+					<li>Address: 576 City Park Ave | Columbus, OH | 43215</li>
+				</ul></p>
 			</div>
-			<div class="span3">
-				<h3>From Flickr</h3>
-				<ul class="thumbnails">
-					<li class="span1">
-					  <div class="thumbnail">
-						<img alt="" src="demo_images/interior.jpg">
-					  </div>
-					</li>
-					<li class="span1">
-					  <div class="thumbnail">
-						<img alt="" src="demo_images/interior1.jpg">
-					  </div>
-					</li>
-					<li class="span1">
-					  <div class="thumbnail">
-						<img alt="" src="demo_images/interior2.jpg">
-					  </div>
-					</li>
-					<li class="span1">
-					  <div class="thumbnail">
-						<img alt="" src="demo_images/interior3.jpg">
-					  </div>
-					</li>
-					<li class="span1">
-					  <div class="thumbnail">
-						<img alt="" src="demo_images/interior4.jpg">
-					  </div>
-					</li>
-					<li class="span1">
-					  <div class="thumbnail">
-						<img alt="" src="demo_images/interior5.jpg">
-					  </div>
-					</li>
-				</ul>
-			</div>
+			
 		</div>
 	</div>
 	<div id="footer" class="container">
 		<div class="row">
 			<div class="span12">
-				<p>2012 © Halo Twitter Bootstrap Theme by <a href="mailto:vukhanhtruong@gmail.com">Vu Khanh Truong</a> | All Rights Reserved</p>
+				<p>2012 © City Park Consulting | All Rights Reserved</p>
 			</div>
 		</div>
 	</div>

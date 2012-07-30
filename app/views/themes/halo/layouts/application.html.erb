@@ -14,20 +14,25 @@
 		<div class="navbar navbar-fixed-top">
 			<div class="container" id="logo">
 				<div class="row">
-					<div class="span4">
+					<div class="span2">
 						<div class="branch">
 							<a href="index.html">City Park Consulting</a>
 							<i class="icon-map-marker icon-white"></i>
 
 						</div>
 					</div>
-					<div class="row">
-				<div>
+				<div class="span7">
 				    <blockquote>
 						<h3>Tweets <small>@dbwest: <%= latest_tweet %></small></h3>
 					</blockquote>
 				</div>
-			</div>
+				<div class="span3" >
+					<form class="form-inline" action="/sendtext" method="POST">
+						<div class="form-text">Get a quote:</div>
+						<input type="text" name="mytext" class="input-small" placeholder="Your Phone #" >
+						<button type="submit" class="btn">Send</button>
+					</form>
+				</div>
 				</div>
 			</div>
 

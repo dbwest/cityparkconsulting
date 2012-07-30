@@ -12,6 +12,8 @@ Cityparkconsulting::Application.routes.draw do
 
   get "landing/right_sidebar"
 
+  match 'sendtext' => 'texter#sendtext'
+
   themes_for_rails 
 
   # config/routes.rb

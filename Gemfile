@@ -17,6 +17,7 @@ gem 'themes_for_rails'
 gem 'thin'
 gem 'jasmine', :group => [:development, :test]
 gem 'twitter'
+gem 'twilio-ruby'
 
 group :development do
 	gem 'rspec-rails'

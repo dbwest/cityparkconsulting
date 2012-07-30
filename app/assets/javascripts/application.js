@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery.mobile
 //= require_tree .
 //= require_tree ../themes/halo
 if(navigator.userAgent.indexOf("iPhone") != -1)  

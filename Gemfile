@@ -18,7 +18,6 @@ gem 'thin'
 gem 'jasmine', :group => [:development, :test]
 gem 'twitter'
 gem 'twilio-ruby'
-gem 'jquery_mobile_rails'
 
 group :development do
 	gem 'rspec-rails'

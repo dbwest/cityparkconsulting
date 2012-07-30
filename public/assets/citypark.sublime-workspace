@@ -776,6 +776,21 @@
 	},
 	"file_history":
 	[
+		"/Users/dev/cityparkconsulting/app/views/themes/halo/layouts/application.html.erb",
+		"/Users/dev/cityparkconsulting/app/views/themes/halo/landing/index.html.erb",
+		"/Users/dev/cityparkconsulting/app/assets/stylesheets/application.css",
+		"/Users/dev/cityparkconsulting/app/helpers/application_helper.rb",
+		"/Users/dev/cityparkconsulting/app/assets/javascripts/application.js",
+		"/Users/dev/cityparkconsulting/public/assets/application.css",
+		"/Users/dev/cityparkconsulting/config/environments/production.rb",
+		"/Users/dev/cityparkconsulting/app/assets/stylesheets/landing.css.scss",
+		"/Users/dev/cityparkconsulting/app/views/pages/landing/index.html.erb",
+		"/Users/dev/cityparkconsulting/config/initializers/tfr.rb",
+		"/Users/dev/cityparkconsulting/config/routes.rb",
+		"/Users/dev/cityparkconsulting/app/assets/javascripts/bootstrap.js",
+		"/Users/dev/cityparkconsulting/app/controllers/application_controller.rb",
+		"/Users/dev/cityparkconsulting/app/assets/themes/halo/javascripts/bootstrap.js",
+		"/Users/dev/cityparkconsulting/app/controllers/landing_controller.rb",
 		"/Users/dev/cityparkconsulting/spec/views/pages/index.html.erb_spec.rb",
 		"/Users/dev/cityparkconsulting/spec/helpers/pages_helper_spec.rb",
 		"/Users/dev/cityparkconsulting/Gemfile",
@@ -785,7 +800,6 @@
 		"/Users/dev/cityparkconsulting/.autotest",
 		"/Users/dev/cityparkconsulting/config/application.rb",
 		"/Users/dev/cityparkconsulting/spec/spec_helper.rb",
-		"/Users/dev/cityparkconsulting/config/routes.rb",
 		"/Users/dev/cityparkconsulting/config/environments/test.rb",
 		"/Users/dev/cityparkconsulting/Procfile",
 		"/Users/dev/rails_projects/sample_app/config/routes.rb",
@@ -889,21 +903,7 @@
 		"/Users/dev/dailythreads/db/migrate/20120622213152_remove_image_url_from_products.rb",
 		"/Users/dev/dailythreads/db/migrate/20120622213448_add_image_url_to_products.rb",
 		"/Users/dev/dailythreads/db/migrate/20120624192815_create_carts.rb",
-		"/Users/dev/dailythreads/app/helpers/application_helper.rb",
-		"/Users/dev/dailythreads/app/assets/stylesheets/store.css.scss",
-		"/Users/dev/dailythreads/app/views/store/belts.html.erb",
-		"/Users/dev/dailythreads/app/assets/stylesheets/reset.scss",
-		"/Users/dev/dailythreads/spec/controllers/line_items_controller_spec.rb",
-		"/Users/dev/dailythreads/spec/requests/products_spec.rb",
-		"/Users/dev/dailythreads/app/views/store/hats.html.erb",
-		"/Users/dev/dailythreads/app/views/store/pants.html.erb",
-		"/Users/dev/dailythreads/app/views/store/shirts.html.erb",
-		"/Users/dev/dailythreads/app/views/store/shoes.html.erb",
-		"/Users/dev/dailythreads/app/views/store/sunglasses.html.erb",
-		"/Users/dev/dailythreads/app/views/store/underwear.html.erb",
-		"/Users/dev/dailythreads/app/views/store/watches.html.erb",
-		"/Users/dev/dailythreads/app/assets/stylesheets/behavior.js",
-		"/Users/dev/dailythreads/db/migrate/20120624204655_combine_items_in_cart.rb"
+		"/Users/dev/dailythreads/app/helpers/application_helper.rb"
 	],
 	"find":
 	{
@@ -934,6 +934,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"registerFont",
+			"register",
+			"cufon",
+			"slidedeck",
+			"slide",
+			"glyp",
+			"assets",
+			"sprockets",
+			"./",
+			"assets",
+			"pages",
+			"halo",
+			"glyp",
+			"icons",
+			"glyph",
 			"3000",
 			"$PORT",
 			"PORT",
@@ -1046,8 +1061,7 @@
 			"back",
 			"head",
 			"tabs",
-			".tabs",
-			"create"
+			".tabs"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1112,12 +1126,44 @@
 		"selected_items":
 		[
 			[
-				"app",
-				"app/assets/stylesheets/application.css"
+				"applihel",
+				"app/helpers/application_helper.rb"
+			],
+			[
+				"index",
+				"app/views/themes/halo/landing/index.html.erb"
+			],
+			[
+				"inde",
+				"app/views/themes/halo/landing/index.html.erb"
 			],
 			[
 				"appl",
-				"app/assets/javascripts/application.js"
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"appli",
+				"public/assets/application.css"
+			],
+			[
+				"prod",
+				"config/environments/production.rb"
+			],
+			[
+				"pagelanin",
+				"app/views/pages/landing/index.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"boot",
+				"app/assets/themes/halo/javascripts/bootstrap.js"
+			],
+			[
+				"app",
+				"app/assets/stylesheets/application.css"
 			],
 			[
 				"gem",
@@ -1268,10 +1314,6 @@
 				"app/controllers/line_items_controller.rb"
 			],
 			[
-				"route",
-				"config/routes.rb"
-			],
-			[
 				"_line",
 				"app/views/line_items/_line_item.html.erb"
 			],
@@ -1356,10 +1398,6 @@
 				"spec/controllers/store_controller_spec.rb"
 			],
 			[
-				"appli",
-				"app/views/layouts/application.html.erb"
-			],
-			[
 				"line",
 				"app/views/line_items/_line_item.html.erb"
 			],
@@ -1418,10 +1456,6 @@
 			[
 				"stind",
 				"app/views/store/index.html.erb"
-			],
-			[
-				"inde",
-				"app/views/admin/index.html.erb"
 			],
 			[
 				"ordind",
@@ -1602,26 +1636,6 @@
 			[
 				"viewcar",
 				"app/views/carts/_cart.html.erb"
-			],
-			[
-				"user_for",
-				"app/views/users/_form.html.erb"
-			],
-			[
-				"viewne",
-				"app/views/carts/new.html.erb"
-			],
-			[
-				"user_fo",
-				"app/views/users/_form.html.erb"
-			],
-			[
-				"userin",
-				"app/views/users/index.html.erb"
-			],
-			[
-				"conuser",
-				"app/controllers/users_controller.rb"
 			]
 		],
 		"width": 0.0

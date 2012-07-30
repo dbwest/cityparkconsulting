@@ -14,6 +14,8 @@ Cityparkconsulting::Application.routes.draw do
 
   match 'sendtext' => 'texter#sendtext'
 
+  get 'mobile/index'
+
   themes_for_rails 
 
   # config/routes.rb

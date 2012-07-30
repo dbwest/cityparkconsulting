@@ -14,3 +14,5 @@
 //= require jquery_ujs
 //= require_tree .
 //= require_tree ../themes/halo
+if(navigator.userAgent.indexOf("iPhone") != -1)  
+{window.location = "http://www.cityparkconsulting.com/mobile";}

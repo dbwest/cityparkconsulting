@@ -7,6 +7,21 @@
   <%= csrf_meta_tags %>
 	<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rationale">
 	<script type="text/javascript"  src='http://cdn.renderedfont.com/js/renderedfont-0.8.min.js#free'></script>
+
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-33982691-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+
 </head>
 <body>
 <header>
@@ -53,13 +68,24 @@
 					<p>You're in the right place</p>
 				</div>
 			</div>
+			
 			<div class="span7">
 				<h3>Contact</h3>
-				<p><ul>
-					<li>Email: david.b.west@gmail.com</li>
+				<p><ul class="unstyled">
+					<li>Email: david@cityparkconsulting.com</li>
 					<li>Phone: (303) 547-6117</li>
 					<li>Address: 576 City Park Ave | Columbus, OH | 43215</li>
 				</ul></p>
+			</div>
+			<div class="span3" style="margin-top:8px;">
+				<a href="#" rel="tooltip" title="ShareThis" class="hover"><img src="demo_images/sharethis.png" alt=""></a>
+				<a href="#" rel="tooltip" title="skype"><img src="demo_images/skype.png" alt=""></a>
+				<a href="#" rel="tooltip" title="aim"><img src="demo_images/aim.png" alt=""></a>
+				<a href="#" rel="tooltip" title="github"><img src="demo_images/github.png" alt=""></a><br>
+				<a href="#" rel="tooltip" title="facebook"><img src="demo_images/facebook.png" alt=""></a>
+				<a href="#" rel="tooltip" title="twitter"><img src="demo_images/twitter.png" alt=""></a>
+				<a href="#" rel="tooltip" title="paypal"><img src="demo_images/paypal.png" alt=""></a>
+				<a href="#" rel="tooltip" title="linkedin"><img src="demo_images/linkedin.png" alt=""></a>
 			</div>
 			
 		</div>
@@ -77,6 +103,5 @@
 	<link rel="stylesheet" type="text/css" href="js/slidedeck/slidedeck.skin.ie.css" media="screen,handheld" />
 	<![endif]-->
 	<!-- Include the SlideDeck jQuery script. -->
-
 </body>
 </html>

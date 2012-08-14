@@ -16,3 +16,7 @@
 //= require_tree ../themes/halo
 if(navigator.userAgent.indexOf("iPhone") != -1)  
 {window.location = "http://www.cityparkconsulting.com/mobile";}
+
+$(document).ready(function(){
+                $('a[rel=tooltip]').tooltip({'placement':'top', 'trigger' : 'hover'});
+            });

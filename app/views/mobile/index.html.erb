@@ -26,7 +26,8 @@
                 </h2>
             </div>
             <div data-role="content" style="padding: 15px">
-                <input type="submit" value="Submit" />
+                <form class="form-inline" action="/sendtext" method="POST">
+               
                 <div data-role="fieldcontain">
                     <fieldset data-role="controlgroup" data-mini="true">
                         <label for="textinput1">
@@ -35,6 +36,8 @@
                         <input id="textinput1" placeholder="" value="(555) 555-1212" type="tel" />
                     </fieldset>
                 </div>
+                 <input type="submit" value="Submit" />
+             </form>
                 <div class="hidden-phone" data-role="collapsible-set" data-theme="b" data-content-theme="b">
                     <div data-role="collapsible" data-collapsed="false">
                         <h3>
@@ -46,7 +49,7 @@
                                     Welcome to City Park
                                 </label>
                                 <textarea id="textarea1" placeholder="">
-                                    You're in the right place. We're a small software design company in Columbus, Ohio, and we will develop your next killer app. We specialize in Ruby on Rails, and our applications run on any device you want. Mac, PC, Android, iPhone - We'll do it for you.
+                                You're in the right place. We're a small software design company in Columbus, Ohio, and we will develop your next killer app. We specialize in Ruby on Rails, and our applications run on any device you want. Mac, PC, Android, iPhone - We'll do it for you.
                                 </textarea>
                             </fieldset>
                         </div>
@@ -62,7 +65,7 @@
                                     Customers Come First
                                 </label>
                                 <textarea id="textarea2" placeholder="">
-                                    We want you to be happy. We can be the hands that follow your direction, or the brains that advise you as you bring your vision to life. We present work frequently and iteratively (following "agile" practices,) and our first priority is to be in sync with you.
+                                We want you to be happy. We can be the hands that follow your direction, or the brains that advise you as you bring your vision to life. We present work frequently and iteratively (following "agile" practices,) and our first priority is to be in sync with you.
                                 </textarea>
                             </fieldset>
                         </div>
@@ -77,7 +80,7 @@
                                     We Do Rails
                                 </label>
                                 <textarea id="textarea3" placeholder="">
-                                    City Park specializes in Ruby on Rails. This means we can help you:  Integrate with social media technologies like Twitter Leverage database power to make blogs, online stores, news feeds, and store any important data you may get from web-spidering Set up ranking systems, product recommendations based on past behavior, etc. Give you an interface to easily manage your site without compromising when it comes to power or ease of use
+                                City Park specializes in Ruby on Rails. This means we can help you:  Integrate with social media technologies like Twitter Leverage database power to make blogs, online stores, news feeds, and store any important data you may get from web-spidering Set up ranking systems, product recommendations based on past behavior, etc. Give you an interface to easily manage your site without compromising when it comes to power or ease of use
                                 </textarea>
                             </fieldset>
                         </div>
@@ -92,7 +95,7 @@
                                     Hosting and Deployment
                                 </label>
                                 <textarea id="textarea4" placeholder="">
-                                    We deploy cloud hosted apps quickly and efficiently, and offer hosting packages along with our development services. Hosting services are free to start, and resources like storage, processing speed, and software features can be purchased on an as-needed basis as your app scales and needs more power.
+                                We deploy cloud hosted apps quickly and efficiently, and offer hosting packages along with our development services. Hosting services are free to start, and resources like storage, processing speed, and software features can be purchased on an as-needed basis as your app scales and needs more power.
                                 </textarea>
                             </fieldset>
                         </div>

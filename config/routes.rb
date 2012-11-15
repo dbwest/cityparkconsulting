@@ -1,5 +1,7 @@
 Cityparkconsulting::Application.routes.draw do
 
+  
+
   get "pages/index"
 
   get "landing/detail"
@@ -17,6 +19,8 @@ Cityparkconsulting::Application.routes.draw do
   get 'mobile' => 'mobile#index' 
 
   themes_for_rails 
+
+  get "labs/index"
 
   # config/routes.rb
 

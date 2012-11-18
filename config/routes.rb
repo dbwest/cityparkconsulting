@@ -20,7 +20,7 @@ Cityparkconsulting::Application.routes.draw do
 
   themes_for_rails 
 
-  get "labs/index"
+  get "labs" => 'labs#productsearch'
 
   # config/routes.rb
 

@@ -2,6 +2,8 @@ Cityparkconsulting::Application.routes.draw do
 
   
 
+  get "labs/productsearch"
+
   get "pages/index"
 
   get "landing/detail"

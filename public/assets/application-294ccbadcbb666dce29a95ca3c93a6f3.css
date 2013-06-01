@@ -14265,7 +14265,7 @@ button.ui-button::-moz-focus-inner {
 	height: 100%;
 }
 .ui-progressbar .ui-progressbar-overlay {
-	background: url(/assets/jquery-ui/animated-overlay.gif);
+	background: url(/assets/jquery-ui/animated-overlay-691b2d4343303de8d214ad5395fd895d.gif);
 	height: 100%;
 	filter: alpha(opacity=25);
 	opacity: 0.25;

@@ -1,6 +1,6 @@
 
 	<script>
-	    $('#about a').click(function (e) {
+	    $('#aboutUs a').click(function (e) {
 		    e.preventDefault();
 		    $(this).tab('show');
 	    })
@@ -21,17 +21,45 @@
 	<% if browser.firefox? %>
 		<div class="container">
 			<ul class="nav nav-tabs">
-				<li><a href="#about" data-toggle="tab">About Us</a></li>
+				<li><a href="#aboutUs" data-toggle="tab">About Us</a></li>
 				<li><a href="#credo" data-toggle="tab">Our Credo</a></li>
 				<li><a href="#work" data-toggle="tab">What We Do</a></li>
 				<li><a href="#deployment" data-toggle="tab">Hosting and Deployment</a></li>
 			</ul>
 			
 			<div class="tab-content">
-				<div class="tab-pane active" id="about"><%= render 'about' %></div>
-				<div class="tab-pane" id="credo">...</div>
-				<div class="tab-pane" id="work">...</div>
-				<div class="tab-pane" id="deployment">...</div>
+				<div class="tab-pane active" id="aboutUs">
+					<div class="row">
+						<div class="span5 well">
+							<img class="slide-photo" src="demo_images/kako-stone.png" alt="" >
+						</div>
+						<div class="span4 well"><%= render 'about' %></div>
+					</div>
+				</div>
+				<div class="tab-pane" id="credo">
+						<div class="row">
+							<div class="span5 well">
+								<img class="slide-photo" src="demo_images/kako-stone.png" alt="" >
+							</div>
+							<div class="span4 well"><%= render 'credo' %></div>
+						</div>
+				</div>
+				<div class="tab-pane" id="work">
+						<div class="row">
+							<div class="span5 well">
+								<img class="slide-photo" src="demo_images/kako-stone.png" alt="" >
+							</div>
+							<div class="span5 well"><%= render 'work' %></div>
+						</div>
+				</div>
+				<div class="tab-pane" id="deployment">
+						<div class="row">
+							<div class="span5 well">
+								<img class="slide-photo" src="demo_images/kako-stone.png" alt="" >
+							</div>
+							<div class="span4 well"><%= render 'deployment' %></div>
+						</div>
+				</div>
 			</div>
 		</div>
 	<% else %>

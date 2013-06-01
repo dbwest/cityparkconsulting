@@ -20,5 +20,6 @@ if(navigator.userAgent.indexOf("Android") != -1)
 {window.location = "http://www.cityparkconsulting.com/mobile";}
 
 $(document).ready(function(){
-                $('a[rel=tooltip]').tooltip({'placement':'top', 'trigger' : 'hover'});
-            });
+    $('a[rel=tooltip]').tooltip({'placement':'top', 'trigger' : 'hover'});
+    
+});

@@ -5,6 +5,7 @@ gem 'rails', '3.2.6'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'browser', :group => [:development, :production]
 gem 'pg'
 gem 'bootstrap-sass', '~> 2.0.3'
 # gem 'bootswatch-rails'

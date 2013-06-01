@@ -1,12 +1,46 @@
 
-	</header>
+	<script>
+	    $('#about a').click(function (e) {
+		    e.preventDefault();
+		    $(this).tab('show');
+	    })
+	    $('#credo a').click(function (e) {
+		    e.preventDefault();
+		    $(this).tab('show');
+	    })
+	    $('#work a').click(function (e) {
+		    e.preventDefault();
+		    $(this).tab('show');
+	    })
+	    $('#deployment a').click(function (e) {
+		    e.preventDefault();
+		    $(this).tab('show');
+	    })
+	</script>
 
-	<div class="body hidden-phone">
+	<% if browser.firefox? %>
 		<div class="container">
-			<div class="row" id="carousel">
-				<div class="span12">
-					<div id="slidedeck_frame" class="skin-slidedeck">
-						<dl class="slidedeck" style="height: 380px">
+			<ul class="nav nav-tabs">
+				<li><a href="#about" data-toggle="tab">About Us</a></li>
+				<li><a href="#credo" data-toggle="tab">Our Credo</a></li>
+				<li><a href="#work" data-toggle="tab">What We Do</a></li>
+				<li><a href="#deployment" data-toggle="tab">Hosting and Deployment</a></li>
+			</ul>
+			
+			<div class="tab-content">
+				<div class="tab-pane active" id="about"><%= render 'about' %></div>
+				<div class="tab-pane" id="credo">...</div>
+				<div class="tab-pane" id="work">...</div>
+				<div class="tab-pane" id="deployment">...</div>
+			</div>
+		</div>
+	<% else %>
+		<div class="body hidden-phone">
+			<div class="container">
+				<div class="row" id="carousel">
+					<div class="span12">
+						<div id="slidedeck_frame" class="skin-slidedeck">
+							<dl class="slidedeck" style="height: 380px">
 								<dt>About Us</dt>
 								<dd>
 									<div class="hero-unit">
@@ -15,9 +49,7 @@
 												<img class="slide-photo" src="demo_images/kako-stone.png" alt="">
 											</div>
 											<div class="span6 pull-right wrap-intro">
-												<h1>Welcome To City Park</h1>
-												<p>You're in the right place. We're a small software design company in Columbus, Ohio, and we will develop your next killer app. We specialize in Ruby on Rails, and our applications run on any device you want. Mac, PC, Android, iPhone - We'll do it for you.</p>
-												<p><a style="visibility:hidden;" class="btn btn-inverse btn-large" href="detail.html">SEND A QUICK INQUIRY »</a></p>
+												<%= render 'about' %>
 											</div>
 										</div>
 									</div>
@@ -30,9 +62,7 @@
 												<img class="slide-photo" src="demo_images/kako-rock.png" alt="">
 											</div>
 											<div class="span6 pull-right wrap-intro">
-												<h1>Customers Come First</h1>
-												<p>We want you to be happy. We can be the hands that follow your direction, or the brains that advise you as you bring your vision to life. We present work frequently and iteratively (following "agile" practices,) and our first priority is to be in sync with you.</p>
-												<p><a style="visibility:hidden;" class="btn btn-inverse btn-large" href="detail.html">TELL US WHAT YOU NEED »</a></p>
+												<%= render 'credo' %>
 											</div>
 										</div>
 									</div>
@@ -45,17 +75,7 @@
 												<img class="slide-photo" src="demo_images/kako-wall.png" alt="">
 											</div>
 											<div class="span6 pull-right wrap-intro">
-												<h1>Web and Mobile Applications</h1>
-												<p>City Park can help you:
-													<ul>
-														<li>Integrate with social media technologies like Twitter</li>
-														<li>Leverage database power to make blogs, online stores, news feeds, and store any important data you may get from web-spidering</li> 
-														<li>Set up ranking systems, product recommendations based on past behavior, etc.</li>
-														<li>Give you an interface to easily manage your site without compromising when it comes to power or ease of use</li>
-														<li>And more</li>
-													</ul>
-												</p>
-												<p><a style="visibility:hidden;" class="btn btn-inverse btn-large" href="detail.html">GET INFO  »</a></p>
+												<%= render 'work' %>
 											</div>
 										</div>
 									</div>
@@ -68,22 +88,18 @@
 												<img class="slide-photo" src="demo_images/kako-stairs.png" alt="">
 											</div>
 											<div class="span6 pull-right wrap-intro">
-												<h1>Our Hosting Solutions</h1>
-												<p>We deploy cloud hosted apps quickly and efficiently, and offer hosting packages along with our development services. Hosting services are free to start, and resources like storage, processing speed, and software features can be purchased on an as-needed basis as your app scales and needs more power.</p>
-												<p><a style="visibility:hidden;" class="btn btn-inverse btn-large" href="detail.html">VIEW PACKAGES »</a></p>
+												<%= render 'deployment' %>
 											</div>
 										</div>
 									</div>
 								</dd>
-						</dl>
+							</dl>
+						</div>
 					</div>
 				</div>
 			</div>
-			
-			
-			
-		</div>
-    </div>
+	    </div>
+	<% end %>
 	<!-- /container -->
 
 

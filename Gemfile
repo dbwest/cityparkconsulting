@@ -17,7 +17,7 @@ gem 'bootstrap_helper'
 gem 'jquery-ui-rails'
 gem 'themes_for_rails'
 gem 'thin'
-gem 'jasmine', :group => [:development, :test]
+gem 'jasmine', '>= 1.3.2', :group => [:development, :test]
 gem 'twitter'
 gem 'twilio-ruby'
 

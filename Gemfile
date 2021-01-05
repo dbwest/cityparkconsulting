@@ -9,7 +9,7 @@ gem 'browser', :group => [:development, :production]
 gem 'pg'
 gem 'bootstrap-sass', '~> 2.0.3'
 # gem 'bootswatch-rails'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.11.0'
 gem 'newrelic_rpm'
 gem 'sass-rails',   '~> 3.2.3'
 gem 'bootstrap-sass', '~> 2.0.3'
@@ -29,7 +29,7 @@ end
 group :test do
 	gem 'rspec-rails'
 	gem 'rspec'
-	gem 'webrat'
+	gem 'webrat', '>= 0.7.3'
 	gem 'spork-rails'
 end
 

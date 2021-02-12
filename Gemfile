@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.6'
+gem 'rails', '6.0.3.5'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -15,7 +15,7 @@ gem 'sass-rails',   '~> 3.2.3'
 gem 'bootstrap-sass', '~> 2.0.3'
 gem 'bootstrap_helper'
 gem 'jquery-ui-rails'
-gem 'themes_for_rails'
+gem 'themes_for_rails', '>= 0.5.1'
 gem 'thin'
 gem 'jasmine', :group => [:development, :test]
 gem 'twitter'

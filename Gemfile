@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.6'
+gem 'rails', '4.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -15,7 +15,7 @@ gem 'sass-rails',   '~> 3.2.3'
 gem 'bootstrap-sass', '~> 2.0.3'
 gem 'bootstrap_helper'
 gem 'jquery-ui-rails'
-gem 'themes_for_rails'
+gem 'themes_for_rails', '>= 0.5.1'
 gem 'thin'
 gem 'jasmine', :group => [:development, :test]
 gem 'twitter'
@@ -30,7 +30,7 @@ group :test do
 	gem 'rspec-rails'
 	gem 'rspec'
 	gem 'webrat'
-	gem 'spork-rails'
+	gem 'spork-rails', '>= 4.0.0'
 end
 
 # Gems used only for assets and not required

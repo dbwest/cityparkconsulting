@@ -9,7 +9,7 @@ gem 'browser', :group => [:development, :production]
 gem 'pg'
 gem 'bootstrap-sass', '~> 2.0.3'
 # gem 'bootswatch-rails'
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.13.4'
 gem 'newrelic_rpm'
 gem 'sass-rails',   '~> 3.2.3'
 gem 'bootstrap-sass', '~> 2.0.3'

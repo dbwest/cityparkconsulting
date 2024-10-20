@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.6'
+gem 'rails', '6.1.7.9'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -11,10 +11,10 @@ gem 'bootstrap-sass', '~> 2.0.3'
 # gem 'bootswatch-rails'
 gem 'nokogiri'
 gem 'newrelic_rpm'
-gem 'sass-rails',   '~> 3.2.3'
+gem 'sass-rails', '~> 6.0.0'
 gem 'bootstrap-sass', '~> 2.0.3'
-gem 'bootstrap_helper'
-gem 'jquery-ui-rails'
+gem 'bootstrap_helper', '>= 4.2.2.0'
+gem 'jquery-ui-rails', '>= 4.0.5'
 gem 'themes_for_rails'
 gem 'thin'
 gem 'jasmine', :group => [:development, :test]

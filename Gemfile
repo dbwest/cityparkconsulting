@@ -22,7 +22,7 @@ gem 'twitter'
 gem 'twilio-ruby'
 
 group :development do
-	gem 'rspec-rails'
+	gem 'rspec-rails', '>= 8.0.0', '>= 8.0.0'
 	gem 'guard-jasmine-headless-webkit'
 end
 

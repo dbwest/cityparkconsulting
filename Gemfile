@@ -18,7 +18,7 @@ gem 'jquery-ui-rails'
 gem 'themes_for_rails'
 gem 'thin'
 gem 'jasmine', :group => [:development, :test]
-gem 'twitter'
+gem 'twitter', '>= 6.2.0'
 gem 'twilio-ruby'
 
 group :development do
